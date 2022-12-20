@@ -3,7 +3,7 @@ pipeline {
     stages {
         state('Clone') {
             steps {
-                git https://github.com/vanhop993/learn-jenkins-flie.git
+                git 'https://github.com/vanhop993/learn-jenkins-flie.git'
             }
         }
     }
